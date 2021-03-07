@@ -1,0 +1,15 @@
+[package]
+name = "rust_sorting_searching"
+version = "0.1.0"
+authors = ["Kieran Gookey <kgookey@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "sortsearchlib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sorting_searching"
+path = "src/main.rs"
+
+[dependencies]
